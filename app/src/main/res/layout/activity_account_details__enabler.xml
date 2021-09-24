@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".enabler.BikeDetails_Enabler">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fill The"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Details"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/bankname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Bank Name"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/accountholdername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Account Holder Name"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/ifccode"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="IFSC Code"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/accountno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Account Number"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:hint="Confirm Account Number"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                app:endIconMode="password_toggle"
+                app:endIconTint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/conformaccountno"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_back1"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberPassword"
+                    android:paddingLeft="30dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/mobileno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Mobile Number"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_shap"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

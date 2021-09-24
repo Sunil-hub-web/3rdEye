@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".subscriber.registration.CustomerDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fill The"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer Details"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="State"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="City"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/aadharcard"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Aadhar Card Number"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/passportdl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Passport/DL Number"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Area"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/pincode"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Area PinCode"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="6"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/uploadaadhar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:drawableLeft="@drawable/upload"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="15dp"
+                android:text="    Upload Aadhar Card"
+                android:textAllCaps="false"
+                android:textColor="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/uploadselfie"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:drawableLeft="@drawable/upload"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="15dp"
+                android:text="     Upload Selfie"
+                android:textAllCaps="false"
+                android:textColor="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_shap"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

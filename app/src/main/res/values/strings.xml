@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TechEye</string>
+    <string name="title_activity_geofence">Map</string>
+
+    <string name="cityerror">Enter a valid city</string>
+    <string name="stateerror">Enter a valid state</string>
+    <string name="pincodeerror">Enter a valid 6 digit pincode</string>
+    <string name="propertyerror">Enter a valid property</string>
+    <string name="fnameerror">Enter a valid Name</string>
+    <string name="lnameerror">Enter a valid Name</string>
+    <string name="mobilenoerror">Enter a valid 10 digit MobileNo</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="otperror">Enter a singe Digit number</string>
+    <string name="aadharCarderror">Enter 12 Digit number</string>
+    <string name="passportdlerror">Enter valide Passport number</string>
+    
+    <string name="companyName">Enter a  Valide Company Name</string>
+    <string name="vehiclenumber">Enter a  Valide Vehicle Number </string>
+    <string name="ModelName">Enter a  Valide Model Name </string>
+    <string name="RcNumber">Enter a  Valide Rc Number </string>
+
+    <string name="bankname">Enter a  Valide Bank Name</string>
+    <string name="holdername">Enter a  Valide Account Holder name </string>
+    <string name="accountno">Enter a  Valide Account Number </string>
+    <string name="confaccNumber">Enter a  Valide Confrom Account Number</string>
+    <string name="ifccode">Enter a  Valide Ifc Code Number</string>
+    <string name="Mobile">Enter a  Valide Mobile Number</string>
+
+</resources>

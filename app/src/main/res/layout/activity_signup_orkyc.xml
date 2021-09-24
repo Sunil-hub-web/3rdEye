@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enabler.registration.SignupOrKYC_Enabler"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fill The Details"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/passportaadhar"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Passport/Aadhar Number"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:imeOptions="actionDone"
+                />
+
+
+            <EditText
+                android:id="@+id/dl"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="DL Number"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:imeOptions="actionDone"/>
+
+            <Button
+                android:id="@+id/uploaddl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:text="    Upload DL photo"
+                android:textColor="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:gravity="left"
+                android:paddingTop="12dp"
+                android:paddingLeft="30dp"
+                android:paddingBottom="15dp"
+                android:drawableLeft="@drawable/upload"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/uploadselfie"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:text="    Upload Selfie photo"
+                android:textColor="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:gravity="left"
+                android:paddingTop="12dp"
+                android:paddingLeft="30dp"
+                android:paddingBottom="15dp"
+                android:drawableLeft="@drawable/upload"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="17dp"
+        android:background="@drawable/button_shap"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

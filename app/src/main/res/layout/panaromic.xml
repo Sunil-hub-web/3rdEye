@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back1"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/panaromicvideo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="#FFFFFF"
+                android:text="Panaromic Video1"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/panaromicvideo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="#FFFFFF"
+                android:text="Panaromic Video2"
+                android:textColor="#FFFFFF" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/panaromicbutton"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/radioGroup"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shap"
+            android:text="ok"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

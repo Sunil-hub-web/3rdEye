@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".enabler.viewalldetails.UserDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="User Account Details"
+                    android:textColor="#FFFFFF"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/fname"
+                        android:layout_width="70dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_back1"
+                        android:hint="First Name"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="30dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#808080"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+
+
+                    <EditText
+                        android:id="@+id/lname"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_back1"
+                        android:hint="Last Name"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="25dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#808080"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/mobileno"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/button_back1"
+                    android:hint="Mobile No"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:paddingLeft="30dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#808080"
+                    android:textSize="20dp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/passportaadhar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/button_back1"
+                    android:hint="Passport/Aadhar Number"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingLeft="30dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#808080"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/dl"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/button_back1"
+                    android:hint="DL Number"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingLeft="30dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#808080"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="@dimen/activity_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_back1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Show Image For Rc"
+                            android:textSize="20sp"
+                            android:textColorHint="#808080"
+                            android:gravity="center_vertical|center_horizontal"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imgPreview"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="@dimen/activity_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_back1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Show Image For Selfie"
+                            android:textSize="20sp"
+                            android:textColorHint="#808080"
+                            android:gravity="center_vertical|center_horizontal"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imgPreview1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

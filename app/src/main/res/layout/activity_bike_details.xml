@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enabler.viewalldetails.BikeDetails"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bike Details"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:id="@+id/lin">
+
+            <TextView
+                android:id="@+id/companyname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Company Name"
+                android:imeOptions="actionDone"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:paddingTop="13dp"/>
+
+
+            <TextView
+                android:id="@+id/vehiclenumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Vehicle Number"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:paddingTop="13dp"/>
+
+            <TextView
+                android:id="@+id/modelname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Model Name"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:paddingTop="13dp"/>
+
+
+            <EditText
+                android:id="@+id/rcnumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:hint="Rc Number"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#808080"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_back1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Show Image For Rc"
+                    android:textSize="20sp"
+                    android:textColorHint="#808080"
+                    android:gravity="center_vertical|center_horizontal"></TextView>
+
+                <ImageView
+                    android:id="@+id/imgPreview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_below="@+id/lin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_shap"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

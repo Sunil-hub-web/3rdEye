@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a3rdeye">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.3rdEye"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".subscriber.SettingActivity"></activity>
+        <activity
+            android:name=".subscriber.viewalldetails.ShowValue"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".subscriber.Notification_Subscriber"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".subscriber.viewalldetails.ViewUserPropertyDetails"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".subscriber.viewalldetails.ValueEditServices_Edit"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".subscriber.viewalldetails.ViewPropertyDetails"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".enabler.propertyphoto.RecordingPropertyVideo" />
+        <activity
+            android:name=".subscriber.viewalldetails.PackagesDetails_Edit"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".enabler.ViewGeofenceProperty"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".subscriber.viewalldetails.PackagesDetails"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+        <activity android:name=".subscriber.viewalldetails.AccountDetails_Edit" />
+        <activity android:name=".subscriber.viewalldetails.AccountDetails" />
+        <activity android:name=".enabler.viewalldetails.BikeDetails_Edit" />
+        <activity android:name=".enabler.viewalldetails.Accountdetails_Edit" />
+        <activity android:name=".enabler.viewalldetails.UserDetails" />
+        <activity android:name=".enabler.viewalldetails.BikeDetails" />
+        <activity android:name=".enabler.viewalldetails.AccountDetails" />
+        <activity android:name=".enabler.AboutUs" />
+        <activity
+            android:name=".subscriber.geofence.DirectionMapForGeofence"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".enabler.HomePage_Enabler"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".subscriber.ViewPdfFile"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".subscriber.About_Us" />
+        <activity android:name=".enabler.propertyphoto.CapturePropertyPhoto" />
+        <activity
+            android:name=".enabler.ProfilePage_Enabler"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ProfilePage_Subscriber"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".HomePage_Subscriber"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".subscriber.geofence.VideoCalling"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".subscriber.geofence.ProcessToLocation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".enabler.BikeDetails_Enabler">
+
+        </activity>
+        <activity android:name=".enabler.registration.CreateAccount_OtpVerification_Enabler" />
+        <activity android:name=".enabler.registration.CreateAccount_Enabler" />
+        <activity android:name=".enabler.signin.SignIn_OTPVerification_Enabler" />
+        <activity android:name=".enabler.signin.MobileNo_Enabler" />
+        <activity android:name=".subscriber.paymentgetway.PaymentGateway" />
+        <activity
+            android:name=".enabler.PhoneDetails_Enabler"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".subscriber.DisclaimerForm" />
+        <activity android:name=".enabler.registration.ContactDetails_Enabler" />
+        <activity android:name=".enabler.registration.SignupOrKYC_Enabler" />
+        <activity android:name=".enabler.AccountDetails_Enabler" />
+        <activity android:name=".declaration.Declaration_Page3_Enabler" />
+        <activity android:name=".declaration.Declaration_Page2_Enabler" />
+        <activity android:name=".declaration.Declaration_Page2_Subscriber" />
+        <activity android:name=".declaration.Declaration_Page1_Enabler" />
+        <activity
+            android:name=".subscriber.packagedetails.ValueAddes_Services"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".subscriber.packagedetails.Packages_Details"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".subscriber.geofence.Geofence"
+            android:label="@string/title_activity_geofence" />
+        <activity
+            android:name=".subscriber.geofence.SerachAreaDetails"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".declaration.Declaration_Page1_Subscriber" />
+        <activity android:name=".subscriber.registration.CustomerDetails" />
+        <activity android:name=".subscriber.registration.CreateAccount_OtpVerification" />
+        <activity
+            android:name=".subscriber.registration.CreateAccount"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".subscriber.ContactDetails" />
+        <activity android:name=".subscriber.AreaDetails" />
+        <activity android:name=".subscriber.signin.SignIn_OTPVerification" />
+        <activity android:name=".subscriber.signin.MobileNo" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>
